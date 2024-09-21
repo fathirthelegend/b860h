@@ -1,6 +1,6 @@
-
 {
     "autosave": true,
+    "donate-level": 1,
     "cpu": true,
     "opencl": false,
     "cuda": false,
@@ -9,7 +9,7 @@
             "algo": null,
             "coin": null,
             "url": "rx.unmineable.com:3333",
-            "user": "CAKE:0xd088bb33358731eaf3a18f4d5a741105d0ccbb96.b860htyo1#mvux-rmeh",
+            "user": "CAKE:0xd088bb33358731eaf3a18f4d5a741105d0ccbb96.b860hgt1#mvux-rmeh",
             "pass": "x",
             "keepalive": true,
             "nicehash": false
