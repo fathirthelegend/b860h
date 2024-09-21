@@ -1,0 +1,67 @@
+{
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": false,
+        "mode": "fast",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": false,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": 5,
+        "memory-pool": false,
+        "yield": true,
+        "max-threads-hint": 50,
+        "asm": true,
+        "argon2-impl": null,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "opencl": {
+        "enabled": false
+    },
+    "cuda": {
+        "enabled": false
+    },
+    "donate-level": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": "CAKE",
+            "url": "rx.unmineable.com:3333",
+            "user": "0xd088bb33358731eaf3a18f4d5a741105d0ccbb96.b860hgt1",
+            "pass": "x",
+            "rig-id": "STB-RIG",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "daemon": false,
+            "self-select": null
+        }
+    ],
+    "print-time": 60,
+    "health-print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "tls": {
+        "enabled": false
+    },
+    "user-agent": null,
+    "verbose": 1,
+    "watch": true,
+    "pause-on-battery": true,
+    "pause-on-active": false
+}
