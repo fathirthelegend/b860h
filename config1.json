@@ -6,7 +6,7 @@
     "randomx": {
         "init": -1,
         "init-avx2": false,
-        "mode": "fast",
+        "mode": "auto",
         "1gb-pages": false,
         "rdmsr": true,
         "wrmsr": true,
@@ -22,7 +22,7 @@
         "priority": 5,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 50,
+        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
@@ -38,9 +38,9 @@
     "pools": [
         {
             "algo": null,
-            "coin": "CAKE",
+            "coin": "null",
             "url": "rx.unmineable.com:3333",
-            "user": "0xd088bb33358731eaf3a18f4d5a741105d0ccbb96.b860hgt1",
+            "user": "CAKE:0xd088bb33358731eaf3a18f4d5a741105d0ccbb96.b860hgt1",
             "pass": "x",
             "rig-id": "STB-RIG",
             "nicehash": false,
